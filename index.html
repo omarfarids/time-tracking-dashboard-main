@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@500;600&family=Inter:wght@400;700&family=Josefin+Sans:wght@300;400;600&family=Karla:wght@400;500;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Libre+Franklin:wght@300;600;700&family=Manrope:wght@500;700&family=Open+Sans:wght@400;600;700&family=Outfit:wght@300;400;600&family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="jeremy-main">
+      <div class="jeremy-header flex-row">
+        <img src="images/image-jeremy.png" alt="Jeremy avatar">
+        <div class="header-title">
+          <span>Report for</span>
+          <h1>Jeremy Robson</h1>
+        </div>
+      </div>
+      <div class="jeremy-footer flex-row">
+        <p>Daily</p>
+        <p class="active">Weekly</p>
+        <p>Monthly</p>
+      </div>
+    </div>
+    <div class="jeremy work">
+      <div class="work-head head">
+        <p>Work</p>
+        <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+      </div>
+      <div class="flex-row">
+        <div class="work-hours hours">32<span>hrs</span></div>
+        <div class="work-previous previous">Last Week - 36hrs</div>
+      </div>
+      <!--5hrs === daily -->
+      <!--Previous - 7hrs === daily -->
+      <!--32hrs === weekly -->
+      <!--Previous - 36hrs === weekly -->
+      <!--103hrs === monthly -->
+      <!--Previous - 128hrs === monthly --> 
+    </div>
+
+    <div class="jeremy play">
+      <div class="play-head head">
+        <p>Play</p>
+        <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+      </div>
+      <div class="flex-row">
+        <div class="play-hours hours">10<span>hrs</span></div>
+        <div class="play-previous previous">Last Week - 8hrs</div>
+      </div>
+      <!--1hrs === daily -->
+      <!--Previous - 2hrs === daily -->
+      <!--10hrs === weekly -->
+      <!--Previous - 8hrs === weekly -->
+      <!--23hrs === monthly -->
+      <!--Previous - 29hrs === monthly --> 
+    </div>
+
+    <div class="jeremy study">
+      <div class="study-head head">
+        <p>Study</p>
+        <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+      </div>
+      <div class="flex-row">
+        <div class="study-hours hours">4<span>hrs</span></div>
+        <div class="study-previous previous">Last Week - 7hrs</div>
+      </div>
+      <!--0hrs === daily -->
+      <!--Previous - 1hrs === daily -->
+      <!--4hrs === weekly -->
+      <!--Previous - 7hrs === weekly -->
+      <!--13hrs === monthly -->
+      <!--Previous - 19hrs === monthly --> 
+    </div>
+
+    <div class="jeremy exercise">
+      <div class="exercise-head head">
+        <p>Exercise</p>
+        <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+      </div>
+      <div class="flex-row">
+        <div class="exercise-hours hours">4<span>hrs</span></div>
+        <div class="exercise-previous previous">Last Week - 5hrs</div>
+      </div>
+      <!--1hrs === daily -->
+      <!--Previous - 1hrs === daily -->
+      <!--4hrs === weekly -->
+      <!--Previous - 5hrs === weekly -->
+      <!--11hrs === monthly -->
+      <!--Previous - 18hrs === monthly --> 
+    </div>
+
+    <div class="jeremy social">
+      <div class="social-head head">
+        <p>Social</p>
+        <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+      </div>
+      <div class="flex-row">
+        <div class="social-hours hours">5<span>hrs</span></div>
+        <div class="social-previous previous">Last Week - 10hrs</div>
+      </div>
+      <!--1hrs === daily -->
+      <!--Previous - 3hrs === daily -->
+      <!--5hrs === weekly -->
+      <!--Previous - 10hrs === weekly -->
+      <!--21hrs === monthly -->
+      <!--Previous - 23hrs === monthly --> 
+    </div>
+
+    <div class="jeremy selfcare">
+      <div class="selfcare-head head">
+        <p>self Care</p>
+        <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+      </div>
+      <div class="flex-row">
+        <div class="selfcare-hours hours">2<span>hrs</span></div>
+        <div class="selfcare-previous previous">Last Week - 2hrs</div>
+      </div>
+      <!--0hrs === daily -->
+      <!--Previous - 1hrs === daily -->
+      <!--2hrs === weekly -->
+      <!--Previous - 2hrs === weekly -->
+      <!--7hrs === monthly -->
+      <!--Previous - 11hrs === monthly --> 
+    </div>
+
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/omarfarids">Omar Farid</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
